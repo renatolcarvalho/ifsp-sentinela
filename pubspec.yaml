@@ -1,0 +1,35 @@
+name: place_tracker
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.0
+  google_maps_flutter: ^2.0.6
+  google_maps_flutter_web: ^0.3.0+1
+  provider: ^5.0.0
+  uuid: ^3.0.4
+  flutter_google_places_hoc081098: ^1.0.0-nullsafety.5
+  google_api_headers: ^1.1.1
+  google_maps_webservice: ^0.0.20-nullsafety.5
+  geolocator: ^8.0.5
+  cloud_firestore: ^3.1.6
+  firebase_core: ^1.11.0
+  geocoding: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  assets:
+    - assets/
+
+  uses-material-design: true
